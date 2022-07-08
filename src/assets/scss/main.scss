@@ -1,0 +1,77 @@
+@import './reset.scss';
+@import './peopleList.scss';
+@import './warning.scss';
+
+body {
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+   background-color: #e5dfdf;
+   font-size: 1rem;
+}
+
+[class*="container"] {
+   max-width: 800px;
+   margin: 0px auto;
+   padding: 0px 15px;
+}
+
+
+.app {
+
+   padding: 20px 0px;      
+   
+   // .app__title
+
+   &__title {
+      margin:  0 auto;
+      font-size: 2rem;
+      text-align: center;
+      background-color: black;
+      color: white;
+      width: 50%;
+      border-radius: 15px;
+      padding: 10px;
+
+      @media (max-width: 767.98px) {
+         font-size: 1.8rem;
+      }
+   }
+
+   // .app__form
+
+   &__form {
+      width: 100%;
+      margin: 8% 0px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+      @media (max-width: 767.98px) {
+         flex-direction: column;
+         gap: 20px;
+      }
+   }
+
+   // .app__input
+
+   &__input {
+      width: 80%;
+      height: 50px;
+      padding: 0px 0px 0px 3%;
+      border-radius: 15px;
+      outline: none;
+   }
+
+   // .app__btn
+
+   &__btn {
+      height: 50px;
+      padding: 5px 20px;
+      background-color: #4a47ed;
+      color: white;
+      border-radius: 15px;
+      font-weight: 600;
+   }
+}
+
+
+
