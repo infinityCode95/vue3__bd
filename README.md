@@ -15,7 +15,7 @@ Vue CLI с Vue 3
 Разделение логики по компонентам
 
 <h3 align="center">
-  <a href="https://infinitycode95.github.io/vue3__bd/">🔗 link</a> 
+  <a href="https://infinitycode95.github.io/vue3__bd/">🔗 Открыть </a> 
 </h3>
 
 
